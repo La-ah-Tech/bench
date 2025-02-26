@@ -54,16 +54,16 @@ A Frappe instance can be setup and replicated easily using [Docker](https://dock
 To setup either of the environments, you will need to clone the official docker repository:
 
 ```sh
-git clone https://github.com/frappe/frappe_docker.git
+git clone https://github.com/La-ah-Tech/frappe_docker.git
 ```
 
-A quick setup guide for both the environments can be found below. For more details, check out the [Frappe Docker Repository](https://github.com/frappe/frappe_docker).
+A quick setup guide for both the environments can be found below. For more details, check out the [Frappe Docker Repository](https://github.com/La-ah-Tech/frappe_docker).
 
 ### Easy Install Script
 
 The Easy Install script should get you going with a Frappe setup with minimal manual intervention and effort.
 
-This script uses Docker with the [Frappe Docker Repository](https://github.com/frappe/frappe_docker) and can be used for both Development setup and Production setup.
+This script uses Docker with the [Frappe Docker Repository](https://github.com/La-ah-Tech/frappe_docker) and can be used for both Development setup and Production setup.
 
 #### Setup
 
@@ -113,7 +113,7 @@ options:
                         Add email for the SSL.
   -p, --push            Push the built image to registry
   -r FRAPPE_PATH, --frappe-path FRAPPE_PATH
-                        Frappe Repository to use, default: https://github.com/frappe/frappe
+                        Frappe Repository to use, default: https://github.com/La-ah-Tech/frappe
   -b FRAPPE_BRANCH, --frappe-branch FRAPPE_BRANCH
                         Frappe branch to use, default: version-15
   -j APPS_JSON, --apps-json APPS_JSON
@@ -212,7 +212,7 @@ Example apps.json
 ```json
 [
   {
-    "url": "https://github.com/frappe/wiki.git",
+    "url": "https://github.com/La-ah-Tech/wiki.git",
     "branch": "master"
   }
 ]
@@ -297,14 +297,14 @@ In case the setup fails, the log file is saved under `$HOME/easy-install.log`. Y
 	```
 
 
-For more in-depth information on commands and their usage, follow [Commands and Usage](https://github.com/frappe/bench/blob/develop/docs/commands_and_usage.md). As for a consolidated list of bench commands, check out [Bench Usage](https://github.com/frappe/bench/blob/develop/docs/bench_usage.md).
+For more in-depth information on commands and their usage, follow [Commands and Usage](https://github.com/La-ah-Tech/bench/blob/develop/docs/commands_and_usage.md). As for a consolidated list of bench commands, check out [Bench Usage](https://github.com/La-ah-Tech/bench/blob/develop/docs/bench_usage.md).
 
 ![Help](resources/help.png)
 
 
 ## Custom Bench Commands
 
-If you wish to extend the capabilities of bench with your own custom Frappe Application, you may follow [Adding Custom Bench Commands](https://github.com/frappe/bench/blob/develop/docs/bench_custom_cmd.md).
+If you wish to extend the capabilities of bench with your own custom Frappe Application, you may follow [Adding Custom Bench Commands](https://github.com/La-ah-Tech/bench/blob/develop/docs/bench_custom_cmd.md).
 
 
 ## Guides
@@ -316,7 +316,7 @@ If you wish to extend the capabilities of bench with your own custom Frappe Appl
 - [Manual Setup](https://docs.frappe.io/framework/user/en/tutorial/install-and-setup-bench)
 - [Setup Production](https://docs.frappe.io/framework/user/en/bench/guides/setup-production)
 - [Setup Multitenancy](https://docs.frappe.io/framework/user/en/bench/guides/setup-multitenancy)
-- [Stopping Production](https://github.com/frappe/bench/wiki/Stopping-Production-and-starting-Development)
+- [Stopping Production](https://github.com/La-ah-Tech/bench/wiki/Stopping-Production-and-starting-Development)
 
 
 ## Resources
@@ -337,7 +337,7 @@ To contribute and develop on the bench CLI tool, clone this repo and create an e
 ### Clone and install
 
 ```sh
-git clone https://github.com/frappe/bench ~/bench-repo
+git clone https://github.com/La-ah-Tech/bench ~/bench-repo
 pip install -e ~/bench-repo
 ```
 
@@ -366,7 +366,7 @@ To confirm the switch, check the output of `bench src`. It should change from so
 
 Bench's version information can be accessed via `bench.VERSION` in the package's __init__.py file. Ever since the v5.0 release, we've started publishing releases on GitHub, and PyPI.
 
-[GitHub](https://github.com/frappe/bench/releases)
+[GitHub](https://github.com/La-ah-Tech/bench/releases)
 [Pypi](https://pypi.org/project/frappe-bench)
 
 
@@ -376,12 +376,12 @@ Bench's version information can be accessed via `bench.VERSION` in the package's
 - [YouTube](https://www.youtube.com/@frappetech)
 
 ## Contribute
-To contribute to this project, please review the [Contribution Guidelines](https://github.com/frappe/erpnext/wiki/Contribution-Guidelines) for detailed instructions. Make sure to follow our [Code of Conduct](https://github.com/frappe/frappe/blob/develop/CODE_OF_CONDUCT.md) to keep the community welcoming and respectful.
+To contribute to this project, please review the [Contribution Guidelines](https://github.com/La-ah-Tech/erpnext/wiki/Contribution-Guidelines) for detailed instructions. Make sure to follow our [Code of Conduct](https://github.com/La-ah-Tech/frappe/blob/develop/CODE_OF_CONDUCT.md) to keep the community welcoming and respectful.
 
 ## Security
 The Frappe team and community prioritize security. If you discover a security issue, please report it via our [Security Report Form](https://frappe.io/security).
 Your responsible disclosure helps keep Frappe and its users safe. We'll do our best to respond quickly and keep you informed throughout the process.
-For guidelines on reporting, check out our [Reporting Guidelines](https://frappe.io/security), and review our [Logo and Trademark Policy](https://github.com/frappe/erpnext/blob/develop/TRADEMARK_POLICY.md) for branding information.
+For guidelines on reporting, check out our [Reporting Guidelines](https://frappe.io/security), and review our [Logo and Trademark Policy](https://github.com/La-ah-Tech/erpnext/blob/develop/TRADEMARK_POLICY.md) for branding information.
 
 <br/><br/>
 <div align="center">

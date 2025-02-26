@@ -8,12 +8,12 @@ You will need a computer/server. Options include:
 
 To install the Frappe/ERPNext server software, you will need an operating system on your normal computer which is not Windows. Note that the command line interface does work on Windows, and you can use Frappe/ERPNext from any operating system with a web browser. However, the server software does not run on Windows. It does run on other operating systems, so choose one of these instead:
 
-- Linux: Ubuntu, Debian, CentOS are the preferred distros and are tested. [Arch Linux](https://github.com/frappe/bench/wiki/Install-ERPNext-on-ArchLinux) can also be used
+- Linux: Ubuntu, Debian, CentOS are the preferred distros and are tested. [Arch Linux](https://github.com/La-ah-Tech/bench/wiki/Install-ERPNext-on-ArchLinux) can also be used
 - Mac OS X
 
 ### Manual Install
 
-To manually install frappe/erpnext, you can follow this [this wiki](https://github.com/frappe/frappe/wiki/The-Hitchhiker%27s-Guide-to-Installing-Frappe-on-Linux) for Linux and [this wiki](https://github.com/frappe/frappe/wiki/The-Hitchhiker's-Guide-to-Installing-Frappe-on-Mac-OS-X) for MacOS. It gives an excellent explanation about the stack. You can also follow the steps mentioned below:
+To manually install frappe/erpnext, you can follow this [this wiki](https://github.com/La-ah-Tech/frappe/wiki/The-Hitchhiker%27s-Guide-to-Installing-Frappe-on-Linux) for Linux and [this wiki](https://github.com/La-ah-Tech/frappe/wiki/The-Hitchhiker's-Guide-to-Installing-Frappe-on-Mac-OS-X) for MacOS. It gives an excellent explanation about the stack. You can also follow the steps mentioned below:
 
 #### 1. Install Prerequisites
 <pre>

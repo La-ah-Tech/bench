@@ -6,8 +6,9 @@ patch and try again later.
 1. Rename folder `./archived_sites` to `./archived/sites`
 2. Create a symlink `./archived_sites` => `./archived/sites`
 
-Corresponding changes in frappe/frappe via https://github.com/frappe/frappe/pull/15060
+Corresponding changes in frappe/frappe via https://github.com/La-ah-Tech/frappe/pull/15060
 """
+
 import os
 from pathlib import Path
 
@@ -17,36 +18,36 @@ from semantic_version import Version
 
 
 def execute(bench_path):
-	frappe_version = Version(get_current_version("frappe"))
+    frappe_version = Version(get_current_version("frappe"))
 
-	if frappe_version.major < 14 or os.name != "posix":
-		# Returning False means patch has been skipped
-		return False
+    if frappe_version.major < 14 or os.name != "posix":
+        # Returning False means patch has been skipped
+        return False
 
-	pre_patch_dir = os.getcwd()
-	old_directory = Path(bench_path, "archived_sites")
-	new_directory = Path(bench_path, "archived", "sites")
+    pre_patch_dir = os.getcwd()
+    old_directory = Path(bench_path, "archived_sites")
+    new_directory = Path(bench_path, "archived", "sites")
 
-	if not old_directory.exists():
-		return False
+    if not old_directory.exists():
+        return False
 
-	if old_directory.is_symlink():
-		return True
+    if old_directory.is_symlink():
+        return True
 
-	os.chdir(bench_path)
+    os.chdir(bench_path)
 
-	if not os.path.exists(new_directory):
-		os.makedirs(new_directory)
+    if not os.path.exists(new_directory):
+        os.makedirs(new_directory)
 
-	old_directory.rename(new_directory)
+    old_directory.rename(new_directory)
 
-	click.secho(f"Archived sites are now stored under {new_directory}")
+    click.secho(f"Archived sites are now stored under {new_directory}")
 
-	if not os.listdir(old_directory):
-		os.rmdir(old_directory)
+    if not os.listdir(old_directory):
+        os.rmdir(old_directory)
 
-	os.symlink(new_directory, old_directory)
+    os.symlink(new_directory, old_directory)
 
-	click.secho(f"Symlink {old_directory} that points to {new_directory}")
+    click.secho(f"Symlink {old_directory} that points to {new_directory}")
 
-	os.chdir(pre_patch_dir)
+    os.chdir(pre_patch_dir)

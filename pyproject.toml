@@ -37,10 +37,10 @@ dynamic = [
 bench = "bench.cli:cli"
 
 [project.urls]
-Changelog = "https://github.com/frappe/bench/releases"
+Changelog = "https://github.com/La-ah-Tech/bench/releases"
 Documentation = "https://frappeframework.com/docs/user/en/bench"
 Homepage = "https://frappe.io/bench"
-Source = "https://github.com/frappe/bench"
+Source = "https://github.com/La-ah-Tech/bench"
 
 [build-system]
 requires = [
