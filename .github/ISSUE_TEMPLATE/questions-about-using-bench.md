@@ -10,7 +10,7 @@ for questions about using `bench`, probably the best place to start is the [benc
 
 for questions about using the `Frappe Framework`: ~~https://discuss.frappe.io~~ => [stackoverflow](https://stackoverflow.com/questions/tagged/frappe) tagged under `frappe`
 
-for questions about using `ERPNext`: https://discuss.erpnext.com
+for questions about using `LaahTech-EM`: https://discuss.erpnext.com
 
 For documentation issues, use the [Frappe Framework Documentation](https://frappe.io/docs/user/en) or the [developer cheetsheet](https://github.com/La-ah-Tech/frappe/wiki/Developer-Cheatsheet)
 

@@ -1,5 +1,5 @@
 ---
-# This is the master playbook that deploys the whole Frappe and ERPNext stack
+# This is the master playbook that deploys the whole Frappe and LaahTech-EM stack
 
 - hosts: localhost
   become: yes

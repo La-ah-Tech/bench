@@ -88,7 +88,7 @@ These commands belong directly to the bench group so they can be invoked directl
  - **remote-reset-url**: Reset app remote url to frappe official
  - **remote-urls**: Show apps remote url
  - **switch-to-branch**: Switch all apps to specified branch, or specify apps separated by space
- - **switch-to-develop**: Switch Frappe and ERPNext to develop branch
+ - **switch-to-develop**: Switch Frappe and LaahTech-EM to develop branch
 
 
 ### A little advanced

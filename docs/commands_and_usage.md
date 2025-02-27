@@ -58,7 +58,7 @@ You can also run the parts of the bench selectively.
 
 		bench start
 
-	To login to Frappe / ERPNext, open your browser and go to `[your-external-ip]:8000`, probably `localhost:8000`
+	To login to Frappe / LaahTech-EM, open your browser and go to `[your-external-ip]:8000`, probably `localhost:8000`
 
 	The default username is "Administrator" and password is what you set when you created the new site.
 

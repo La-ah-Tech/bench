@@ -1,4 +1,4 @@
-### ERPNext/Frappe Branching
+### LaahTech-EM/Frappe Branching
 
 #### Branch Description
  - `develop` Branch: All new feature developments will go in develop branch

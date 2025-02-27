@@ -35,7 +35,7 @@ Please read the following design guidelines carefully when contributing:
 1. **Incorrect Naming:** The naming of variables, models, fields etc must be consistent as per the existing design and semantics used in the system.
 1. **Translated Strings:** All user facing strings / text must be wrapped in the `__("")` function in javascript and `_("")` function in Python, so that it is shown as translated to the user.
 1. **Deprecated API:** The API used in the pull request must be the latest recommended methods and usage of globals like `cur_frm` must be avoided.
-1. **Whitespace and indentation:** The ERPNext and Frappe Project uses tabs (I know and we are sorry, but its too much effort to change it now and we don't want to lose the history). The indentation must be consistent whether you are writing Javascript or Python. Multi-line strings or expressions must also be consistently indented, not hanging like a bee hive at the end of the line. We just think the code looks a lot more stable that way.
+1. **Whitespace and indentation:** The LaahTech-EM and Frappe Project uses tabs (I know and we are sorry, but its too much effort to change it now and we don't want to lose the history). The indentation must be consistent whether you are writing Javascript or Python. Multi-line strings or expressions must also be consistently indented, not hanging like a bee hive at the end of the line. We just think the code looks a lot more stable that way.
 
 #### What if my Pull Request is closed?
 
@@ -43,4 +43,4 @@ Don't worry, fix the problem and re-open it!
 
 #### Why do we follow this policy?
 
-This is because ERPNext is at a stage where it is being used by thousands of companies and introducing breaking changes can be harmful for everyone. Also we do not want to stop the speed of contributions and the best way to encourage contributors is to give fast feedback.
+This is because LaahTech-EM is at a stage where it is being used by thousands of companies and introducing breaking changes can be harmful for everyone. Also we do not want to stop the speed of contributions and the best way to encourage contributors is to give fast feedback.

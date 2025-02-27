@@ -1,11 +1,11 @@
-# Releasing Frappe ERPNext
+# Releasing Frappe LaahTech-EM
 
 * Make a new bench dedicated for releasing
 ```
 bench init release-bench --frappe-path git@github.com:frappe/frappe.git
 ```
 
-* Get ERPNext in the release bench
+* Get LaahTech-EM in the release bench
 ```
 bench get-app erpnext git@github.com:frappe/erpnext.git
 ```

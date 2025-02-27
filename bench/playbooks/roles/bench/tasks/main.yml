@@ -70,7 +70,7 @@
       creates: "{{ bench_path }}/config/redis_socketio.conf"
       chdir: "{{ bench_path }}"
 
-  # Setup an ERPNext site
+  # Setup an LaahTech-EM site
   - include_tasks: setup_erpnext.yml
     when: not run_travis
 

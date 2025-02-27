@@ -89,7 +89,7 @@ def write_to_env(
     example_env = get_from_env(frappe_docker_dir, "example.env")
     erpnext_version = erpnext_version or example_env["ERPNEXT_VERSION"]
     env_file_lines = [
-        # defaults to latest version of ERPNext
+        # defaults to latest version of LaahTech-EM
         f"ERPNEXT_VERSION={erpnext_version}\n",
         f"DB_PASSWORD={db_pass}\n",
         "DB_HOST=db\n",
@@ -573,7 +573,7 @@ def add_common_parser(parser: argparse.ArgumentParser):
     parser.add_argument(
         "-v",
         "--version",
-        help="ERPNext or image version to install, defaults to latest stable",
+        help="LaahTech-EM or image version to install, defaults to latest stable",
     )
     parser.add_argument(
         "-l",
@@ -603,8 +603,8 @@ def add_build_parser(subparsers: argparse.ArgumentParser):
     parser.add_argument(
         "-b",
         "--frappe-branch",
-        help="Frappe branch to use, default: version-15",
-        default="version-15",
+        help="Frappe branch to use, default: laahtech-em",
+        default="laahtech-em",
     )
     parser.add_argument(
         "-j",

@@ -2,13 +2,13 @@
 
 You will need a computer/server. Options include:
 
-- A Normal Computer/VPS/Baremetal Server: This is strongly recommended. Frappe/ERPNext installs properly and works well on these
-- A Raspberry Pi, SAN Appliance, Network Router, Gaming Console, etc.: Although you may be able to install Frappe/ERPNext on specialized hardware, it is unlikely to work well and will be difficult for us to support. Strongly consider using a normal computer/VPS/baremetal server instead. **We do not support specialized hardware**.
-- A Toaster, Car, Firearm, Thermostat, etc.: Yes, many modern devices now have embedded computing capability. We live in interesting times. However, you should not install Frappe/ERPNext on these devices. Instead, install it on a normal computer/VPS/baremetal server. **We do not support installing on noncomputing devices**.
+- A Normal Computer/VPS/Baremetal Server: This is strongly recommended. Frappe/LaahTech-EM installs properly and works well on these
+- A Raspberry Pi, SAN Appliance, Network Router, Gaming Console, etc.: Although you may be able to install Frappe/LaahTech-EM on specialized hardware, it is unlikely to work well and will be difficult for us to support. Strongly consider using a normal computer/VPS/baremetal server instead. **We do not support specialized hardware**.
+- A Toaster, Car, Firearm, Thermostat, etc.: Yes, many modern devices now have embedded computing capability. We live in interesting times. However, you should not install Frappe/LaahTech-EM on these devices. Instead, install it on a normal computer/VPS/baremetal server. **We do not support installing on noncomputing devices**.
 
-To install the Frappe/ERPNext server software, you will need an operating system on your normal computer which is not Windows. Note that the command line interface does work on Windows, and you can use Frappe/ERPNext from any operating system with a web browser. However, the server software does not run on Windows. It does run on other operating systems, so choose one of these instead:
+To install the Frappe/LaahTech-EM server software, you will need an operating system on your normal computer which is not Windows. Note that the command line interface does work on Windows, and you can use Frappe/LaahTech-EM from any operating system with a web browser. However, the server software does not run on Windows. It does run on other operating systems, so choose one of these instead:
 
-- Linux: Ubuntu, Debian, CentOS are the preferred distros and are tested. [Arch Linux](https://github.com/La-ah-Tech/bench/wiki/Install-ERPNext-on-ArchLinux) can also be used
+- Linux: Ubuntu, Debian, CentOS are the preferred distros and are tested. [Arch Linux](https://github.com/La-ah-Tech/bench/wiki/Install-LaahTech-EM-on-ArchLinux) can also be used
 - Mac OS X
 
 ### Manual Install

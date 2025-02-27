@@ -43,7 +43,7 @@ If applicable, add screenshots to help explain your problem.
 Can be found out by running `bench version` in your respective bench folder.
 - Bench Branch:
 - Frappe Version:
-- ERPNext Version:
+- LaahTech-EM Version:
 
 **Additional context** :page_facing_up:
 Add any other context about the problem here.
