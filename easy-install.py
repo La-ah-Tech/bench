@@ -46,7 +46,7 @@ def cprint(*args, level: int = 1):
 def clone_frappe_docker_repo() -> None:
     try:
         urllib.request.urlretrieve(
-            "https://github.com/La-ah-Tech/frappe_docker/archive/refs/heads/main.zip",
+            "https://github.com/La-ah-Tech/frappe_docker/archive/refs/heads/laahtech-em.zip",
             "frappe_docker.zip",
         )
         logging.info("Downloaded frappe_docker zip file from GitHub")
@@ -689,7 +689,7 @@ def build_image(
     install_container_runtime()
 
     if not tags:
-        tags = ["custom-apps:latest"]
+        tags = ["frappe/erpnext:laahtech-em"]
 
     apps_json_base64 = None
     try:
