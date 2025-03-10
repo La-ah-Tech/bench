@@ -52,7 +52,7 @@ def clone_frappe_docker_repo() -> None:
         logging.info("Downloaded frappe_docker zip file from GitHub")
         unpack_archive("frappe_docker.zip", ".")
         # Unzipping the frappe_docker.zip creates a folder "frappe_docker-main"
-        move("frappe_docker-main", "frappe_docker")
+        move("frappe_docker-laahtech-em", "frappe_docker")
         logging.info("Unzipped and Renamed frappe_docker")
         os.remove("frappe_docker.zip")
         logging.info("Removed the downloaded zip file")
