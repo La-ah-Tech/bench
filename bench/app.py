@@ -260,7 +260,7 @@ class App(AppMeta):
 
         install_app(
             app=app_name,
-            tag=self.tag,
+            tag=getattr(self, "tag", "laahtech-em"),
             bench_path=self.bench.name,
             verbose=verbose,
             skip_assets=skip_assets,
